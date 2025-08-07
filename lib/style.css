@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 26px;
+}
+
+.section {
+    font-size: 36px;
+}
+
+.section1 {
+    margin: 10px;
+}
+
+.list {
+    margin: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+
+    h2 {
+        font-size: 2em;
+        text-align: start;
+    }
+
+    .section {
+        font-size: 1.4em;
+    }
+
+    .section1 {
+    }
+
+    .list {
+    }
+
+    li {
+        font-size: 1.2em;
+    }
+
+}
